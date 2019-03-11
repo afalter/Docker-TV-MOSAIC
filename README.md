@@ -12,23 +12,19 @@ Enjoy your favorite programs on all TV screens in house with Kodi and DLNA clien
 
 ## Volumes
 
-TV MOSAIC is quite locked down, directory-wise. Currently only `/share` and `/recordings` are used.
-
-Everything else is splitted up by TV MOSAIC to different files.
-
 Currently the volumes are:
 
-* `/recordings` - Recordings folder. You might have to point it here. **Required**
-* `/opt/Mosaic` - Where all xmltv, transponders, playlists etc is located. **Required**
 * `/usr/local/bin/tvmosaic` - Config folder. **Required**
+* `/opt/TVMosaic` - Where all xmltv, transponders, playlists etc is located. **Required**
+* `/opt/TVMosaic/RecordedTV` - Recordings folder. You might have to point it here. **Required**
 
 ## Ports
 
 It's recommended to run the docker with `--net=host` to be able to use IPTV without issues.
 
-* `9070` - TV MOSAIC port.
-* `9071` - TV MOSAIC port.
+* `9270` - TV MOSAIC port.
+* `9271` - TV MOSAIC port.
 
 ## Info
 
-Read more at http://http://tv-mosaic.com
+Read more at http://tv-mosaic.com
