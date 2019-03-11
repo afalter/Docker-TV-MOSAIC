@@ -22,8 +22,11 @@ Currently the volumes are:
 
 It's recommended to run the docker with `--net=host` to be able to use IPTV without issues.
 
-* `9270` - TV MOSAIC port.
-* `9271` - TV MOSAIC port.
+* `9270` - TV MOSAIC port for command interface.
+* `9271` - TV MOSAIC port for stream.
+
+The configuration web UI is available at http://\<host-ip\>:9270/web
+
 
 ## Info
 
