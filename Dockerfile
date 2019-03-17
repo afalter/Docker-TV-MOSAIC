@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER fueller
+MAINTAINER afalter
 
 ENV LANG C.UTF-8
 
@@ -12,8 +12,8 @@ RUN mkdir -p /var/log/supervisord
 RUN mkdir /var/run/dbus
 ADD /etc/supervisor/conf.d/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-ADD /etc/init.d/mosaic.sh /etc/init.d/mosaic.sh
-RUN chmod +x /etc/init.d/mosaic.sh
+ADD /etc/init.d/tvmosaic.sh /etc/init.d/tvmosaic.sh
+RUN chmod +x /etc/init.d/tvmosaic.sh
 
 RUN mkdir /opt-start && mv /usr/local/bin/tvmosaic /opt-start && mv /opt/TVMosaic /opt-start
 
