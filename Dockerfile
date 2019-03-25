@@ -3,7 +3,7 @@ MAINTAINER afalter
 
 ENV LANG C.UTF-8
 
-RUN useradd --uid 99 --gid 100 nobody
+RUN useradd --uid 99 --gid 100 unraid
 
 RUN apt-get update && \
     apt-get install -y wget dbus dbus-x11 gconf2 supervisor htop nano procps lsof
