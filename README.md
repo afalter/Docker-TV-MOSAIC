@@ -10,6 +10,7 @@ Live and recorded TV for Windows, Linux and Mac laptops and workstations
 
 Enjoy your favorite programs on all TV screens in house with Kodi and DLNA clients
 
+This docker ist especially created Form usage with unRAID, as it sets UID and GID top 99:100.
 ## Volumes
 
 Currently the volumes are:
