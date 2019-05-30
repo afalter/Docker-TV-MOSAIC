@@ -1,4 +1,4 @@
-FROM dvblogic:tvmosaic
+FROM dvblogic/tvmosaic
 MAINTAINER afalter
 
 ENV LANG C.UTF-8
